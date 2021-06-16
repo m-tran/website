@@ -14,7 +14,7 @@ export const RFAVolOverviewHeader: React.FC<{
     bottom: "3vw",
   };
   const pageHeader: React.CSSProperties = {
-    fontFamily: "Mazzard-H-Bold",
+    fontFamily: "Mazzard-H",
     transform: "rotate(358deg)",
     color: props.headerTextColor,
   };
@@ -25,10 +25,10 @@ export const RFAVolOverviewHeader: React.FC<{
     backgroundImage: `url(${props.image})`,
   };
   const pageHeaderDescription: React.CSSProperties = {
-    fontFamily: "BeVietnam-SemiBold",
+    fontFamily: "BeVietnam",
   };
   const statCircles: React.CSSProperties = {
-    paddingLeft: "5vmax",
+    paddingLeft: "5rem",
   };
 
   return (
@@ -39,45 +39,45 @@ export const RFAVolOverviewHeader: React.FC<{
             <Col>
               <div>
                 <RFAVolOverviewCircle
-                  paddingtop={"3.3vmax"}
-                  width={"16vmax"}
-                  height={"16vmax"}
-                  top={"-20vmax"}
+                  paddingtop={"3.3rem"}
+                  width={"16rem"}
+                  height={"16rem"}
+                  top={"-20rem"}
                   title={"Work With:"}
                   subtext={"Levels of Curriculum"}
                   end={12}
-                  subtextSize={"1.3vmax"}
-                  titleSize={"2.1vmax"}
+                  subtextSize={"1.3rem"}
+                  titleSize={"2.1rem"}
                 ></RFAVolOverviewCircle>
               </div>
             </Col>
             <Col>
               <div>
                 <RFAVolOverviewCircle
-                  paddingtop={"3.3vmax"}
-                  width={"16vmax"}
-                  height={"16vmax"}
-                  top={"-32vmax"}
+                  paddingtop={"3.3rem"}
+                  width={"16rem"}
+                  height={"16rem"}
+                  top={"-32rem"}
                   title={"Join our:"}
                   subtext={"Active Volunteers"}
                   end={221}
-                  subtextSize={"1.3vmax"}
-                  titleSize={"2.1vmax"}
+                  subtextSize={"1.3rem"}
+                  titleSize={"2.1rem"}
                 ></RFAVolOverviewCircle>
               </div>
             </Col>
             <Col>
               <div>
                 <RFAVolOverviewCircle
-                  paddingtop={"3.8vmax"}
-                  width={"18vmax"}
-                  height={"17vmax"}
-                  top={"-23vmax"}
+                  paddingtop={"3.8rem"}
+                  width={"18rem"}
+                  height={"17rem"}
+                  top={"-23rem"}
                   title={"Support our:"}
                   subtext={"Students Taught"}
                   end={1296}
-                  subtextSize={"1.6vmax"}
-                  titleSize={"2.4vmax"}
+                  subtextSize={"1.6rem"}
+                  titleSize={"2.4rem"}
                 ></RFAVolOverviewCircle>
               </div>
             </Col>

@@ -9,12 +9,12 @@ export const RFAHomeAffOrgsCard: React.FC<{
   logo: string;
 }> = (props) => {
   const affOrgsTitle: React.CSSProperties = {
-    fontFamily: "Mazzard-H-ExtraBold",
+    fontFamily: "Mazzard-H",
     color: "white",
     textAlign: "center",
   };
   const imageSize: React.CSSProperties = {
-    height: "12vmax",
+    height: "12rem",
   };
   const borderRadius = {
     borderTopLeftRadius: 15,
@@ -50,7 +50,7 @@ export const RFAHomeAffOrgsCard: React.FC<{
           <a
             href={props.link}
             target="_blank"
-            className="home-aff-org-card-link"
+            className="aff-org-card-link"
             style={linkColor}
             rel="noreferrer"
           >

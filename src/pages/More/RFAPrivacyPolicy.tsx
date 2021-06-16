@@ -11,7 +11,7 @@ export const RFAPrivacyPolicy: React.FC = () => {
     background: "rgb(255, 204, 0, 0.5)",
     border: 0,
     borderRadius: "15px 15px 0 0",
-    fontFamily: "mazzard-h-bold",
+    fontFamily: "mazzard-h",
     fontSize: "36px",
     padding: "20px",
   };
@@ -21,7 +21,7 @@ export const RFAPrivacyPolicy: React.FC = () => {
     background: "rgb(252, 175, 98, 0.5)",
     border: 0,
     borderRadius: "15px 15px 0 0",
-    fontFamily: "mazzard-h-bold",
+    fontFamily: "mazzard-h",
     fontSize: "36px",
     padding: "20px",
   };
@@ -31,21 +31,20 @@ export const RFAPrivacyPolicy: React.FC = () => {
     background: "#fff",
     border: 0,
     borderRadius: "15px 15px 0 0",
-    fontFamily: "mazzard-h-extrabold",
+    fontFamily: "Mazzard-H",
     fontSize: "36px",
     padding: "30px",
   };
 
   const positionsDescription = {
-    fontFamily: "BeVietnam-SemiBold",
-    fontWeight: 600,
+    fontFamily: "BeVietnam",
     color: "black",
   };
 
   const positions: React.CSSProperties = {
     marginLeft: "auto",
     marginRight: "auto",
-    width: "120vh",
+    width: "100%",
     textAlign: "center",
   };
   return (

@@ -3,7 +3,7 @@ import { Row } from "react-bootstrap";
 
 export const RFASubmitButton: React.FC<{ state?: boolean }> = (props) => {
   const textStyle: React.CSSProperties = {
-    fontFamily: "BeVietnam-ExtraBold",
+    fontFamily: "BeVietnam",
     textAlign: "center",
     color: "black",
   };

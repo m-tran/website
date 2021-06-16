@@ -21,18 +21,18 @@ export const RFAVolOverviewCircle: React.FC<{
     paddingTop: props.paddingtop,
   };
   const circleTitle: React.CSSProperties = {
-    fontFamily: "Mazzard-H-ExtraBold",
+    fontFamily: "Mazzard-H",
     fontSize: props.titleSize,
     lineHeight: "88%",
   };
   const circleSubtext: React.CSSProperties = {
-    fontFamily: "BeVietnam-SemiBold",
+    fontFamily: "BeVietnam",
     fontSize: props.subtextSize,
     lineHeight: "88%",
   };
   const statNumbers: React.CSSProperties = {
-    fontFamily: "Mazzard-H-Bold",
-    fontSize: "5.4vmax",
+    fontFamily: "Mazzard-H",
+    fontSize: "5.4rem",
     color: "black",
     lineHeight: "88%",
   };

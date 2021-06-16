@@ -11,7 +11,7 @@ export const RFABylawEntry: React.FC<{
     borderRadius: "20px",
     border: "10px solid rgba(255, 204, 0, 0.5)",
     padding: "5px",
-    fontFamily: "BeVietnam-Bold",
+    fontFamily: "BeVietnam",
     fontSize: "large",
     textAlign: "center",
   };
@@ -25,7 +25,7 @@ export const RFABylawEntry: React.FC<{
       </Col>
       <Col xs={2} style={background}>
         <p>
-          <a href={props.download} className="hyperlink" download>
+          <a href={props.download} download>
             Download
           </a>
         </p>

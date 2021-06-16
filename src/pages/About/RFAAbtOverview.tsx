@@ -5,13 +5,13 @@ import { RFAHeader } from "@/components/RFAHeader";
 
 export const RFAAbtOverview: React.FC = () => {
   const title: React.CSSProperties = {
-    fontFamily: "Oswald-Medium",
-    fontSize: "10vh",
+    fontFamily: "Oswald",
+    fontSize: "6rem",
     textAlign: "center",
   };
   const description: React.CSSProperties = {
-    fontFamily: "BeVietnam-Regular",
-    fontSize: "3.5vh",
+    fontFamily: "BeVietnam",
+    fontSize: "3rem",
     color: "black",
   };
   const missionColor: React.CSSProperties = {
@@ -63,9 +63,7 @@ export const RFAAbtOverview: React.FC = () => {
           <h2 style={{ ...title, ...valuesColor }}>OUR VALUES</h2>
           <p style={description}>
             We are{" "}
-            <span
-              style={{ fontFamily: "BeVietnam-Semibold", color: "#fa8d1f" }}
-            >
+            <span style={{ fontFamily: "BeVietnam", color: "#fa8d1f" }}>
               motivated
             </span>
             . Each and every day, we strive to be a positive force in this world
@@ -74,9 +72,7 @@ export const RFAAbtOverview: React.FC = () => {
           <div></div>
           <p style={description}>
             We are{" "}
-            <span
-              style={{ fontFamily: "BeVietnam-Semibold", color: "#ffcc00" }}
-            >
+            <span style={{ fontFamily: "BeVietnam", color: "#ffcc00" }}>
               inclusive
             </span>
             . We celebrate the diversity of our students and volunteers alike.
@@ -84,9 +80,7 @@ export const RFAAbtOverview: React.FC = () => {
           <div></div>
           <p style={description}>
             We are{" "}
-            <span
-              style={{ fontFamily: "BeVietnam-Semibold", color: "#33cc66" }}
-            >
+            <span style={{ fontFamily: "BeVietnam", color: "#33cc66" }}>
               accountable
             </span>
             . We remain honest and transparent in everything we do.
@@ -94,9 +88,7 @@ export const RFAAbtOverview: React.FC = () => {
           <div></div>
           <p style={description}>
             We are{" "}
-            <span
-              style={{ fontFamily: "BeVietnam-Semibold", color: "#70b8ff" }}
-            >
+            <span style={{ fontFamily: "BeVietnam", color: "#70b8ff" }}>
               collaborative
             </span>
             . Through the strength of teamwork, we are able to generate stronger
@@ -105,9 +97,7 @@ export const RFAAbtOverview: React.FC = () => {
           <div></div>
           <p style={description}>
             We are{" "}
-            <span
-              style={{ fontFamily: "BeVietnam-Semibold", color: "#006bd6" }}
-            >
+            <span style={{ fontFamily: "BeVietnam", color: "#006bd6" }}>
               compassionate
             </span>
             . We care deeply about all of our students, volunteers, and our

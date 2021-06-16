@@ -6,14 +6,14 @@ export const RFAWebsiteTOSCard: React.FC<{
   posDescription: JSX.Element;
 }> = (props) => {
   const posHeader: React.CSSProperties = {
-    fontFamily: "Mazzard-H-Extrabold",
+    fontFamily: "Mazzard-H",
     letterSpacing: "0.25em",
     textAlign: "center",
   };
 
   const posDescription: React.CSSProperties = {
     color: "#000000",
-    fontFamily: "BeVietnam-Medium",
+    fontFamily: "BeVietnam",
   };
 
   return (

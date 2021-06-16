@@ -8,13 +8,13 @@ export const RFAPositionCard: React.FC<{
   borderColor?: string;
 }> = (props) => {
   const posHeader: React.CSSProperties = {
-    fontFamily: "Mazzard-H-Extrabold",
+    fontFamily: "Mazzard-H",
     letterSpacing: "0.25em",
     textAlign: "center",
   };
 
   const posDescription: React.CSSProperties = {
-    fontFamily: "BeVietnam-Medium",
+    fontFamily: "BeVietnam",
     color: "#000000",
   };
 

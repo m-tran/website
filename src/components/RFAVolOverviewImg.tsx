@@ -7,12 +7,12 @@ export const RFAVolOverviewImg: React.FC<{
   image: string;
 }> = (props) => {
   const cardTitle = {
-    fontFamily: "Oswald-Medium",
-    fontSize: "2.5vmax",
+    fontFamily: "Oswald",
+    fontSize: "2.5rem",
     color: props.color,
   };
   const overviewImgSize = {
-    width: "18vmax",
+    width: "18rem",
   };
   return (
     <div>

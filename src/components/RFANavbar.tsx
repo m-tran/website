@@ -5,19 +5,16 @@ import { Link } from "react-router-dom";
 
 export const RFANavbar: React.FC = () => {
   const logoImageSize = {
-    height: "7vh",
+    height: "4rem",
   };
   const header = {
-    fontFamily: "Oswald-Medium",
+    fontFamily: "Oswald",
   };
 
   return (
     <Row>
-      <nav className="w-100 py-5 navbar navbar-light navbar-expand-lg">
-        <Link
-          to="/"
-          className="navbar-brand hyperlink d-flex align-items-center"
-        >
+      <nav className="w-100 py-4 px-5 navbar navbar-light navbar-expand-lg">
+        <Link to="/" className="navbar-brand d-flex align-items-center">
           <img alt="" src={TobyHeaderLogo} style={logoImageSize} />
           <h2 className="m-0 ms-3 d-none d-sm-none d-md-block" style={header}>
             Robotics For All

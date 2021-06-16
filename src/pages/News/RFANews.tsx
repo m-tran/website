@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { Container, Row, Col, Button, Card } from "react-bootstrap";
 import { RFAHeader } from "@/components/RFAHeader";
-import headerBlobOrange from "@/media/HeaderBlobs/orange.png";
+import headerBlobOrange from "@/media/HeaderBlobs/yellow.png";
 import paloaltoonline from "@/media/News/Palo-Alto-Online.png";
 import mercurynews from "@/media/News/Mercury-News.png";
 import houseofreps from "@/media/News/House-of-Representatives.png";
@@ -63,13 +63,13 @@ export const RFANews: React.FC = () => {
     borderRadius: "15px",
     border: "none",
     fontSize: "28px",
-    fontFamily: "BeVietnam-Medium",
+    fontFamily: "BeVietnam",
     color: "black",
   };
   const linkStyles = {
     textDecoration: "none",
     color: "black",
-    fontFamily: "Mazzard-H-Extrabold",
+    fontFamily: "Mazzard-H",
     fontSize: "30px",
   };
   const cardStyles = { background: "#9be6b2", border: "none" };
@@ -95,7 +95,7 @@ export const RFANews: React.FC = () => {
               <Col xs="auto">
                 <h1
                   style={{
-                    fontFamily: "Mazzard-H-Extrabold",
+                    fontFamily: "Mazzard-H",
                     fontSize: "59px",
                     color: "rgb(250, 141, 31)",
                   }}
@@ -136,7 +136,7 @@ export const RFANews: React.FC = () => {
         <Row className="mt-3">
           <h1
             style={{
-              fontFamily: "Mazzard-H-Extrabold",
+              fontFamily: "Mazzard-H",
               fontSize: "59px",
               color: "#3c6",
             }}
@@ -199,7 +199,7 @@ export const RFANews: React.FC = () => {
         <Row className="mt-3">
           <h1
             style={{
-              fontFamily: "Mazzard-H-Extrabold",
+              fontFamily: "Mazzard-H",
               fontSize: "59px",
               color: "rgb(51,153,255)",
             }}
@@ -243,7 +243,7 @@ export const RFANews: React.FC = () => {
         <Row className="mt-3">
           <h1
             style={{
-              fontFamily: "Mazzard-H-Extrabold",
+              fontFamily: "Mazzard-H",
               fontSize: "59px",
               color: "rgb(255,204,0)",
             }}
@@ -304,7 +304,7 @@ export const RFANews: React.FC = () => {
         <Row className="mt-3">
           <h1
             style={{
-              fontFamily: "Mazzard-H-Extrabold",
+              fontFamily: "Mazzard-H",
               fontSize: "59px",
               color: "rgb(250,141,31)",
             }}

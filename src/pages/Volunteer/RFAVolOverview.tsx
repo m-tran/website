@@ -10,15 +10,15 @@ import { RFAVolOverviewHeader } from "@/components/RFAVolOverviewHeader";
 
 export const RFAVolOverview: React.FC = () => {
   const positionsTitle: React.CSSProperties = {
-    fontFamily: "Oswald-Medium",
-    fontSize: "5.5vmax",
+    fontFamily: "Oswald",
+    fontSize: "5rem",
     color: "#fa8d1f",
     textAlign: "center",
     letterSpacing: "0.1em",
   };
   const positionsDescription: React.CSSProperties = {
-    fontFamily: "BeVietnam-SemiBold",
-    fontSize: "1.3vmax",
+    fontFamily: "BeVietnam",
+    fontSize: "2rem",
     color: "black",
   };
 
@@ -77,7 +77,7 @@ export const RFAVolOverview: React.FC = () => {
             }
             buttonfloat={"right"}
             cardfloat={"left"}
-            arrowLocation={"4.6vmax"}
+            arrowLocation={"4.6rem"}
           ></RFAVolOverviewCard>
           <RFAVolOverviewCard
             applyLink="/volunteer-volunteerapp"
@@ -90,7 +90,7 @@ export const RFAVolOverview: React.FC = () => {
             }
             buttonfloat={"right"}
             cardfloat={"left"}
-            arrowLocation={"26vmax"}
+            arrowLocation={"26rem"}
           ></RFAVolOverviewCard>
           <RFAVolOverviewCard
             applyLink="/volunteer-volunteerapp"
@@ -103,7 +103,7 @@ export const RFAVolOverview: React.FC = () => {
             }
             buttonfloat={"left"}
             cardfloat={"right"}
-            arrowLocation={"47vmax"}
+            arrowLocation={"47rem"}
           ></RFAVolOverviewCard>
         </Col>
       </Container>

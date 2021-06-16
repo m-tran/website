@@ -7,7 +7,7 @@ import volunteerFAQJSON from "@/posts/faqs/volunteer_faqs.json";
 
 export const RFAVolunteerFAQ: React.FC = () => {
   const heading = {
-    fontFamily: "Oswald-Medium",
+    fontFamily: "Oswald",
     color: "#532f0A",
   };
 

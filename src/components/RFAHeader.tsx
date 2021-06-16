@@ -7,17 +7,16 @@ export const RFAHeader: React.FC<{
   description: string;
 }> = (props) => {
   const pageHeaderDescription = {
-    fontFamily: "BeVietnam-SemiBold",
-    fontWeight: 600,
+    fontFamily: "BeVietnam",
     color: "black",
   };
   const pageHeader = {
-    fontFamily: "Mazzard-H-Extrabold",
+    fontFamily: "Mazzard-H",
     color: props.headerTextColor,
   };
   const headerBlob = {
     backgroundSize: "100% 100%",
-    height: "45vmax",
+    height: "45rem",
     width: "100vw",
     backgroundImage: `url(${props.image})`,
   };

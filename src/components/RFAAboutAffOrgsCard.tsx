@@ -12,16 +12,16 @@ export const RFAAboutAffOrgsCard: React.FC<{
   linkColor: string;
 }> = (props) => {
   const affOrgsCardText = {
-    fontFamily: "BeVietnam-Medium",
+    fontFamily: "BeVietnam",
     fontSize: "large",
   };
 
   const affOrgsHeader = {
-    fontFamily: "Mazzard-H-Extrabold",
+    fontFamily: "Mazzard-H",
     color: props.mainColor,
   };
   const affOrgsLogoSize = {
-    height: "20vh",
+    height: "8rem",
   };
 
   return (
@@ -71,7 +71,7 @@ export const RFAAboutAffOrgsCard: React.FC<{
                   style={{ color: props.linkColor }}
                   rel="noopener noreferrer"
                   target="_blank"
-                  className="text-center hyperlink aff-org-card-link"
+                  className="text-center aff-org-card-link"
                   href={props.website}
                 >
                   VISIT {props.orgAbrv}

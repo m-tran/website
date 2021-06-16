@@ -15,12 +15,12 @@ export const RFAVolOverviewCard: React.FC<{
   cardfloat: string;
 }> = (props) => {
   const positionsTitle = {
-    fontFamily: "Oswald-Medium",
-    fontSize: "3.2vmax",
+    fontFamily: "Oswald",
+    fontSize: "3.2rem",
   };
   const description = {
-    fontFamily: "BeVietnam-Medium",
-    fontSize: "1.3vmax",
+    fontFamily: "BeVietnam",
+    fontSize: "1.3rem",
   };
   const card = {
     borderRadius: "15px",
@@ -30,14 +30,15 @@ export const RFAVolOverviewCard: React.FC<{
     borderRadius: "15px",
     backgroundColor: props.backgroundcolor,
     color: props.buttonColor,
-    fontFamily: "Oswald-Medium",
-    fontSize: "2.2vmax",
+    fontFamily: "Oswald",
+    fontSize: "2.2rem",
   };
   const arrow = {
     borderBottom: `70px solid ${props.backgroundcolor}`,
-    borderRight: "35px solid transparent",
-    borderLeft: "35px solid transparent",
+    borderRight: "45px solid transparent",
+    borderLeft: "45px solid transparent",
     borderTop: "20px solid transparent",
+    width: 0,
   };
   return (
     <Container>
@@ -47,7 +48,7 @@ export const RFAVolOverviewCard: React.FC<{
         </div>
       </Row>
       <Row>
-        <Col className="border center-align me-3 px-4" md={8} style={card}>
+        <Col className="center-align me-3 px-4" md={8} style={card}>
           <Row className="align-items-center">
             <h2 style={positionsTitle}>{props.title}</h2>
             <p style={description}>{props.description}</p>
@@ -57,14 +58,14 @@ export const RFAVolOverviewCard: React.FC<{
           <Row className="h-100 align-items-between">
             <Link
               to={props.learnMoreLink}
-              className="aff-org-card-link center-align hyperlink mb-md-3 p-3"
+              className="aff-org-card-link center-align mb-md-3 p-3"
               style={button}
             >
               Learn More
             </Link>
             <Link
               to={props.applyLink}
-              className="aff-org-card-link hyperlink center-align p-3"
+              className="aff-org-card-link center-align p-3"
               style={button}
             >
               Apply

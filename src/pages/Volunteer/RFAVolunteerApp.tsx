@@ -11,7 +11,7 @@ export const RFAVolunteerApp: React.FC = () => {
     background: "#FFCC00",
     border: "none",
     borderRadius: "15px 15px 0 0",
-    fontFamily: "Mazzard-H-Extrabold",
+    fontFamily: "Mazzard-H",
     fontSize: "x-large",
     padding: "30px",
   };
@@ -20,7 +20,7 @@ export const RFAVolunteerApp: React.FC = () => {
     background: "#FA8D1F",
     border: "none",
     borderRadius: "15px 15px 0 0",
-    fontFamily: "Mazzard-H-Extrabold",
+    fontFamily: "Mazzard-H",
     fontSize: "x-large",
     padding: "30px",
   };
@@ -68,7 +68,7 @@ export const RFAVolunteerApp: React.FC = () => {
                     <iframe
                       src="https://docs.google.com/forms/d/e/1FAIpQLSdxQe6sYXbPoLQ5MpFnptT6e5ptCQYFXq5U2fwcAaBBONrP8g/viewform?embedded=true"
                       width="100%"
-                      height="800vmax"
+                      height="800rem"
                       frameBorder="0"
                       marginHeight={0}
                       marginWidth={0}
@@ -89,7 +89,7 @@ export const RFAVolunteerApp: React.FC = () => {
                     <iframe
                       src="https://docs.google.com/forms/d/e/1FAIpQLSdYi6eUvSdgRQ6Yw2EsF_bdhCuKEskR-draKjd7FoNk_8jrbw/viewform?embedded=true"
                       width="100%"
-                      height="800vmax"
+                      height="800rem"
                       frameBorder="0"
                       marginHeight={0}
                       marginWidth={0}

@@ -20,7 +20,7 @@ export const RFAPublicityInternPos: React.FC = () => {
     background: "#FFCC00",
     border: 0,
     borderRadius: "15px 15px 0 0",
-    fontFamily: "mazzard-h-extrabold",
+    fontFamily: "mazzard-h",
     fontSize: "x-large",
     padding: "30px",
   };
@@ -29,7 +29,7 @@ export const RFAPublicityInternPos: React.FC = () => {
     background: "#FA8D1F",
     border: 0,
     borderRadius: "15px 15px 0 0",
-    fontFamily: "mazzard-h-extrabold",
+    fontFamily: "mazzard-h",
     fontSize: "x-large",
     padding: "30px",
   };

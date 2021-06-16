@@ -1,87 +1,91 @@
+@import url("bootstrap/dist/css/bootstrap.min.css");
+
 @font-face {
-  font-family: "Mazzard-H-Bold";
+  font-family: "Mazzard-H";
   src: url("./fonts/Mazzard/MazzardH-Bold.otf") format("woff"),
     url("./fonts/Mazzard/MazzardH-Bold.otf") format("opentype"),
     url("./fonts/Mazzard/MazzardH-Bold.otf") format("truetype");
+  font-weight: 700;
 }
 @font-face {
-  font-family: "Mazzard-H-Black";
+  font-family: "Mazzard-H";
   src: url("./fonts/Mazzard/MazzardH-Black.otf") format("woff"),
     url("./fonts/Mazzard/MazzardH-Black.otf") format("opentype"),
     url("./fonts/Mazzard/MazzardH-Black.otf") format("truetype");
+  font-weight: 900;
 }
 @font-face {
-  font-family: "Mazzard-H-ExtraBold";
+  font-family: "Mazzard-H";
   src: url("./fonts/Mazzard/MazzardH-ExtraBold.otf") format("woff"),
     url("./fonts/Mazzard/MazzardH-ExtraBold.otf") format("opentype"),
     url("./fonts/Mazzard/MazzardH-ExtraBold.otf") format("truetype");
+  font-weight: 800;
 }
 @font-face {
-  font-family: "BeVietnam-Medium";
+  font-family: "BeVietnam";
   src: url("./fonts/BeVietnam/BeVietnam-Medium.ttf") format("tff"),
     url("./fonts/BeVietnam/BeVietnam-Medium.ttf") format("opentype"),
     url("./fonts/BeVietnam/BeVietnam-Medium.ttf") format("truetype");
+  font-weight: 500;
 }
 @font-face {
-  font-family: "BeVietnam-Bold";
+  font-family: "BeVietnam";
   src: url("./fonts/BeVietnam/BeVietnam-Bold.ttf") format("tff"),
     url("./fonts/BeVietnam/BeVietnam-Bold.ttf") format("opentype"),
     url("./fonts/BeVietnam/BeVietnam-Bold.ttf") format("truetype");
+  font-weight: 700;
 }
 @font-face {
-  font-family: "BeVietnam-ExtraBold";
+  font-family: "BeVietnam";
   src: url("./fonts/BeVietnam/BeVietnam-ExtraBold.ttf") format("tff"),
     url("./fonts/BeVietnam/BeVietnam-ExtraBold.ttf") format("opentype"),
     url("./fonts/BeVietnam/BeVietnam-ExtraBold.ttf") format("truetype");
+  font-weight: 800;
 }
 @font-face {
-  font-family: "BeVietnam-SemiBold";
+  font-family: "BeVietnam";
   src: url("./fonts/BeVietnam/BeVietnam-SemiBold.ttf") format("tff"),
     url("./fonts/BeVietnam/BeVietnam-SemiBold.ttf") format("opentype"),
     url("./fonts/BeVietnam/BeVietnam-SemiBold.ttf") format("truetype");
+  font-weight: 600;
 }
 @font-face {
-  font-family: "BeVietnam-Regular";
+  font-family: "BeVietnam";
   src: url("./fonts/BeVietnam/BeVietnam-Regular.ttf") format("tff"),
     url("./fonts/BeVietnam/BeVietnam-Regular.ttf") format("opentype"),
     url("./fonts/BeVietnam/BeVietnam-Regular.ttf") format("truetype");
+  font-weight: 400;
 }
 @font-face {
-  font-family: "BeVietnam-Light";
+  font-family: "BeVietnam";
   src: url("./fonts/BeVietnam/BeVietnam-Light.ttf") format("tff"),
     url("./fonts/BeVietnam/BeVietnam-Light.ttf") format("opentype"),
     url("./fonts/BeVietnam/BeVietnam-Light.ttf") format("truetype");
+  font-weight: 300;
 }
 @font-face {
-  font-family: "Oswald-Medium";
+  font-family: "Oswald";
   src: url("./fonts/Oswald/Oswald-Medium.ttf") format("tff"),
     url("./fonts/Oswald/Oswald-Medium.ttf") format("opentype"),
     url("./fonts/Oswald/Oswald-Medium.ttf") format("truetype");
+  font-weight: 500;
 }
 @font-face {
-  font-family: "Oswald-Bold";
+  font-family: "Oswald";
   src: url("./fonts/Oswald/Oswald-Bold.ttf") format("tff"),
     url("./fonts/Oswald/Oswald-Bold.ttf") format("opentype"),
     url("./fonts/Oswald/Oswald-Bold.ttf") format("truetype");
+  font-weight: 700;
 }
-/* a:focus{
+
+a {
   text-decoration: none;
-} */
-
-.C06202 {
-  color: #c06202;
 }
-
 input::placeholder,
 textarea::placeholder {
   color: #b38f00;
 }
 
-button,
-input,
-textarea {
-  outline: none !important;
-}
 input,
 textarea {
   background-color: #ffcc004d;
@@ -94,7 +98,6 @@ textarea:invalid:focus {
 input:valid {
   border: 1px solid black;
 }
-
 input:hover,
 textarea:hover {
   background-color: white;
@@ -111,113 +114,93 @@ textarea:hover {
   transition: 200ms;
   background-color: #ffcc00ca;
 }
-/* .container{
-  max-width: 980px;
-} */
 
 html,
 body {
   height: 100%;
-  overflow-x: hidden;
-}
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p,
-a {
-  letter-spacing: 1.4px;
 }
 
 .aff-org-card-link {
-  font-family: "BeVietnam-ExtraBold", sans-serif;
+  font-family: "BeVietnam", sans-serif;
+  font-weight: 800;
   font-size: 2.5em;
   letter-spacing: 0.1em;
   transition: 0.2s;
 }
 
 /* #region Overrided Bootstrap styles for navbar */
-.navbar .nav-link {
-  color: #ffcc00 !important; /* nav headers font style */
-  font-family: "BeVietnam-ExtraBold" !important;
+.navbar-light .navbar-nav .nav-link {
+  color: #ffcc00; /* nav headers font style */
+  font-family: "BeVietnam";
+  font-weight: 800;
   font-size: 1.5em;
 }
 .navbar .nav-link:hover {
   transition: 0.2s;
-  color: #fa8d1f !important;
+  color: #fa8d1f;
 }
 .navbar .nav-link:active {
   transition: 0.2s;
-  color: black !important;
+  color: black;
 }
 .nav-link::after {
-  content: none !important;
+  content: none;
 }
 
 /* for donate button specifically */
-.navbar .donate-nav-link {
-  color: #ffffff !important; /* nav headers font style */
-  font-family: "BeVietnam-ExtraBold" !important;
+.navbar-light .navbar-nav .donate-nav-link {
+  color: #ffffff; /* nav headers font style */
+  font-family: BeVietnam;
+  font-weight: 800;
   font-size: 1.5em;
-  padding: 0 !important;
-  display: flex !important;
-  align-self: center !important;
-  justify-self: center !important;
+  padding: 0;
+  display: flex;
+  align-self: center;
+  justify-self: center;
+  transition: 0.2s;
 }
 .navbar .donate-nav-link:hover {
-  transition: 0.2s;
-  color: #3399ff !important;
+  color: #3399ff;
 }
 .navbar .donate-nav-link:active {
-  transition: 0.2s;
-  color: #006bd6 !important;
+  color: #006bd6;
 }
 .donate-nav-item {
   border-radius: 1em;
   background-color: #3399ff;
-  padding: 0em 2rem !important;
+  padding: 0em 2rem;
 }
 .donate-nav-item:hover {
   background-color: #70b8ff;
 }
-.donate-nav-link::after {
-  content: none !important;
-}
-
-.navbar-collapse {
-  text-align: center;
-}
 
 /* for dropdowns */
 .dropdown-item {
-  color: #fa8d1f !important; /* font styling for dropdown text */
-  font-family: "BeVietnam-ExtraBold";
-  background-color: #ffdb4d !important;
+  color: #fa8d1f; /* font styling for dropdown text */
+  font-family: "BeVietnam";
+  font-weight: 800;
+  background-color: #ffdb4d;
   font-size: 1.2em;
+  transition: 0.2s;
 }
 .dropdown-item:hover {
-  transition: 0.2s;
-  background-color: #ffcc00 !important;
-  color: #c06204 !important;
+  background-color: #ffcc00;
+  color: #c06204;
 }
 .dropdown-item:active {
-  transition: 0.2s;
-  background-color: #ffcc00 !important;
-  color: black !important;
+  background-color: #ffcc00;
+  color: black;
 }
 .dropdown:hover .dropdown-menu {
-  display: block !important;
+  display: block;
 }
 .dropdown-menu {
-  border-radius: 15px !important;
-  background-color: #ffdb4d !important;
+  border-radius: 15px;
+  background-color: #ffdb4d;
 }
 /*#endregion*/
 
 /* #region styling for pages like teacher positions */
-/*teacherpos, publicitypos, privacypolicy, websitetos*/
 .pos-container {
   border: 15px solid;
   border-radius: 0 0 15px 15px;
@@ -235,34 +218,26 @@ a {
 }
 
 .pos-container-button {
-  background-color: #fa8d1f !important;
-  transition: 200ms !important;
+  background-color: #fa8d1f;
+  transition: 200ms;
 }
 
 .pos-container-button:hover {
-  background-color: #ffcc00 !important;
-  transition: 200ms !important;
+  background-color: #ffcc00;
 }
 /*#endregion*/
 
 /* #region homepage styling */
-.home-aff-org-card-link {
-  font-family: "BeVietnam-ExtraBold", sans-serif;
-  font-size: 2em;
-  transition: 0.2s;
-  text-decoration: none;
-}
 .home-page-house-img {
-  background-image: url("media/HoverImages/house_1.png") !important;
+  background-image: url("media/HoverImages/house_1.png");
   background-repeat: no-repeat;
   background-size: cover;
-  width: 25vmax;
-  height: 17vmax; /* Height of new image */
+  width: 12.5rem;
+  height: 8.5rem;
   transition: 200ms;
 }
 .home-page-house-img:hover {
-  background-image: url("media/HoverImages/house_2.png") !important;
-  transition: 200ms;
+  background-image: url("media/HoverImages/house_2.png");
 }
 .home-page-house-img + h1 {
   color: #3399ff;
@@ -270,20 +245,18 @@ a {
 }
 .home-page-house-img:hover + h1 {
   color: #006bd6;
-  transition: 200ms;
 }
 
 .home-page-apple-img {
   background-image: url("media/HoverImages/apple_1.png");
   background-repeat: no-repeat;
   background-size: cover;
-  width: 15vmax;
-  height: 17vmax; /* Height of new image */
+  width: 7.5rem;
+  height: 8.5rem;
   transition: 200ms;
 }
 .home-page-apple-img:hover {
   background-image: url("media/HoverImages/apple_2.png");
-  transition: 200ms;
 }
 .home-page-apple-img + h1 {
   color: #70db94;
@@ -291,20 +264,18 @@ a {
 }
 .home-page-apple-img:hover + h1 {
   color: #33cc66;
-  transition: 200ms;
 }
 
 .home-page-world-img {
   background-image: url("media/HoverImages/world_1.png");
   background-repeat: no-repeat;
   background-size: cover;
-  width: 17vmax;
-  height: 17vmax; /* Height of new image */
+  width: 8.5rem;
+  height: 8.5rem;
   transition: 200ms;
 }
 .home-page-world-img:hover {
   background-image: url("media/HoverImages/world_2.png");
-  transition: 200ms;
 }
 .home-page-world-img + h1 {
   color: #fcaf62;
@@ -312,16 +283,6 @@ a {
 }
 .home-page-world-img:hover + h1 {
   color: #fa8d1f;
-  transition: 200ms;
-}
-
-.yellow-row {
-  background-color: #ffcc004d;
-}
-
-.video-width {
-  height: 60vh;
-  width: 75% !important;
 }
 /* #endregion */
 
@@ -332,47 +293,8 @@ a {
   transition: 200ms;
 }
 .faq-dropdown:hover {
-  background-color: #ffdb4d !important;
-  color: #532f04 !important;
-  transition: 200ms;
-}
-/*#endregion*/
-
-/* #region helper classes */
-.hyperlink,
-.hyperlink:hover {
-  text-decoration: none;
-  color: black;
-}
-.C06202 {
-  color: #c06202;
-}
-.center-align {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-.mb-6 {
-  margin-bottom: 6em;
-}
-/*#endregion*/
-
-/* #region Fade Animation for Webpages */
-.fade-enter {
-  opacity: 0;
-  transition: opacity 200ms;
-}
-.fade-enter-active {
-  opacity: 1;
-  transition: opacity 200ms;
-}
-.fade-exit {
-  opacity: 1;
-  transition: opacity 200ms;
-}
-.fade-active {
-  opacity: 0;
-  transition: opacity 200ms;
+  background-color: #ffdb4d;
+  color: #532f04;
 }
 /*#endregion*/
 
@@ -386,10 +308,6 @@ a {
   .header-size {
     font-size: 27px;
   }
-  .video-width {
-    width: 100% !important;
-    height: auto;
-  }
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
@@ -400,10 +318,6 @@ a {
   .header-size {
     font-size: 35px;
   }
-  .video-width {
-    width: 100% !important;
-    height: auto;
-  }
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
@@ -413,10 +327,6 @@ a {
   }
   .header-size {
     font-size: 43px;
-  }
-  .video-width {
-    width: 100% !important;
-    height: auto;
   }
 }
 
@@ -433,33 +343,12 @@ a {
     letter-spacing: 0.25em;
     text-decoration: none;
   }
-  .video-width {
-    width: 75% !important;
-    height: 60vh;
-  }
-  .home-aff-org-card-link:hover {
-    transition: 0.2s;
-    text-decoration: none;
-    color: white !important;
-  }
 }
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
-  .header-description-size {
-    font-size: 20px;
-  }
   .header-size {
     font-size: 60px;
-  }
-  .video-width {
-    width: 75% !important;
-    height: 60vh;
-  }
-  .home-aff-org-card-link:hover {
-    transition: 0.2s;
-    text-decoration: none;
-    color: white;
   }
 }
 /*#endregion*/

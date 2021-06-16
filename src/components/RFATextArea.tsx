@@ -11,7 +11,7 @@ export const RFATextArea: React.FC<{
   const inputStyle = {
     borderRadius: 15,
     borderWidth: 1,
-    fontFamily: "BeVietnam-ExtraBold",
+    fontFamily: "BeVietnam",
     paddingLeft: "0.5em",
     fontSize: "1.2em",
     margin: "auto",

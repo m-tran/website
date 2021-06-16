@@ -15,7 +15,7 @@ export const RFAWebsiteTOS: React.FC = () => {
     background: "rgb(255, 204, 0, 0.5)",
     border: 0,
     borderRadius: "15px 15px 0 0",
-    fontFamily: "mazzard-h-bold",
+    fontFamily: "mazzard-h",
     fontSize: "36px",
     padding: "20px",
   };
@@ -29,7 +29,7 @@ export const RFAWebsiteTOS: React.FC = () => {
     background: "rgb(252, 175, 98, 0.5)",
     border: 0,
     borderRadius: "15px 15px 0 0",
-    fontFamily: "mazzard-h-bold",
+    fontFamily: "mazzard-h",
     fontSize: "36px",
     padding: "20px",
   };
@@ -40,7 +40,7 @@ export const RFAWebsiteTOS: React.FC = () => {
     background: "#fff",
     border: 0,
     borderRadius: "15px 15px 0 0",
-    fontFamily: "mazzard-h-extrabold",
+    fontFamily: "Mazzard-H",
     fontSize: "x-large",
     padding: "20px",
   };

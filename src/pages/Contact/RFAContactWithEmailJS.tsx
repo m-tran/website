@@ -14,7 +14,7 @@ export const RFAContactWithEmailJS: React.FC<{
   email: string;
 }> = () => {
   const contactInfo = {
-    fontFamily: "BeVietnam-SemiBold",
+    fontFamily: "BeVietnam",
   };
 
   const linkStyle = {
@@ -73,22 +73,14 @@ export const RFAContactWithEmailJS: React.FC<{
             <Row className="flex-column">
               <h3>
                 EMAIL |{" "}
-                <a
-                  className="hyperlink"
-                  style={linkStyle}
-                  href={"mailto:info@roboticsforall.net"}
-                >
+                <a style={linkStyle} href={"mailto:info@roboticsforall.net"}>
                   info@roboticsforall.net
                 </a>
               </h3>
               <br></br>
               <h3>
                 PHONE |{" "}
-                <a
-                  className="hyperlink"
-                  style={linkStyle}
-                  href={"tel:+(650)-665-9734"}
-                >
+                <a style={linkStyle} href={"tel:+(650)-665-9734"}>
                   +(650)-665-9734
                 </a>
               </h3>

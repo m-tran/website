@@ -15,7 +15,7 @@ export const RFACorpBylaws: React.FC = () => {
     borderRadius: "20px",
     border: "10px solid white",
     padding: "5px",
-    fontFamily: "BeVietnam-ExtraBold",
+    fontFamily: "BeVietnam",
     fontSize: "xx-large",
     textAlign: "center",
     color: "black",

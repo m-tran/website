@@ -12,7 +12,7 @@ export const RFAFAQDropdowns: React.FC<{
 
   const dropdownQuestion = {
     borderRadius: "1em",
-    fontFamily: "BeVietnam-ExtraBold",
+    fontFamily: "BeVietnam",
     backgroundColor: dropdownBGColor,
     color: dropdownTextColor,
   };
@@ -20,7 +20,7 @@ export const RFAFAQDropdowns: React.FC<{
   const dropdownAnswer = {
     borderRadius: "1em",
     backgroundColor: "#ffcc00",
-    fontFamily: "BeVietnam-SemiBold",
+    fontFamily: "BeVietnam",
   };
   const dropdownDisplay = {
     display: dropdownAnswerDisplay,

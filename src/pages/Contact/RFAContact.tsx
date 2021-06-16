@@ -44,7 +44,7 @@ export const RFAContact: React.FC<{
   };
 
   const contactInfo = {
-    fontFamily: "BeVietnam-SemiBold",
+    fontFamily: "BeVietnam",
   };
 
   const linkStyle = {
@@ -53,7 +53,7 @@ export const RFAContact: React.FC<{
 
   const iconSize = {
     width: "auto",
-    height: "5vmax",
+    height: "5rem",
     margin: "0.1em",
   };
 
@@ -75,22 +75,14 @@ export const RFAContact: React.FC<{
             <Row className="flex-column">
               <h3>
                 EMAIL |{" "}
-                <a
-                  className="hyperlink"
-                  style={linkStyle}
-                  href={"mailto:info@roboticsforall.net"}
-                >
+                <a style={linkStyle} href={"mailto:info@roboticsforall.net"}>
                   info@roboticsforall.net
                 </a>
               </h3>
               <br></br>
               <h3>
                 PHONE |{" "}
-                <a
-                  className="hyperlink"
-                  style={linkStyle}
-                  href={"tel:+(650)-665-9734"}
-                >
+                <a style={linkStyle} href={"tel:+(650)-665-9734"}>
                   +(650)-665-9734
                 </a>
               </h3>

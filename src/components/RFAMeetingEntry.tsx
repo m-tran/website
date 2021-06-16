@@ -11,7 +11,7 @@ export const RFAMeetingEntry: React.FC<{
     borderRadius: "20px",
     border: "10px solid rgba(255, 204, 0, 0.5)",
     padding: "5px",
-    fontFamily: "BeVietnam-Bold",
+    fontFamily: "BeVietnam",
     fontSize: "large",
     textAlign: "center",
   };
@@ -23,14 +23,14 @@ export const RFAMeetingEntry: React.FC<{
       </Col>
       <Col xs={3} style={background}>
         <p>
-          <a href={props.agendaDownload} className="hyperlink" download>
+          <a href={props.agendaDownload} download>
             Agenda
           </a>
         </p>
       </Col>
       <Col xs={3} style={background}>
         <p>
-          <a href={props.minutesDownload} className="hyperlink" download>
+          <a href={props.minutesDownload} download>
             Minutes
           </a>
         </p>

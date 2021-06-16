@@ -5,11 +5,11 @@ import headerBlobYellow from "@/media/HeaderBlobs/yellow.png"; // add correct im
 
 export const RFADonate: React.FC = () => {
   const positionsDescription = {
-    fontFamily: "BeVietnam-Medium",
+    fontFamily: "BeVietnam",
   };
 
   const buttonText = {
-    fontFamily: "Mazzard-H-Extrabold",
+    fontFamily: "Mazzard-H",
   };
 
   return (
@@ -52,7 +52,7 @@ export const RFADonate: React.FC = () => {
           <a
             href="#"
             style={buttonText}
-            className="hyperlink long-button w-25 header-size text-center"
+            className="long-button w-25 header-size text-center"
           >
             Donate
           </a>

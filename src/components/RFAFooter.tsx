@@ -13,84 +13,70 @@ export const RFAFooter: React.FC = () => {
     color: "#532F0A",
   };
   const linkStyle: React.CSSProperties = {
-    fontFamily: "BeVietnam-Bold",
+    fontFamily: "BeVietnam",
     fontSize: "large",
+    color: "#C06202",
   };
   const headerStyle: React.CSSProperties = {
-    fontFamily: "Oswald-Medium",
+    fontFamily: "Oswald",
   };
   const copyrightDisclaimer: React.CSSProperties = {
-    fontFamily: "BeVietnam-Light",
+    fontFamily: "BeVietnam",
     textAlign: "center",
   };
   const iconSize: React.CSSProperties = {
-    width: "4vmax",
-    height: "4vmax",
+    width: "4rem",
+    height: "4rem",
     margin: "0.1em",
   };
 
   return (
-    <Row className="yellow-row">
+    <Row style={{ backgroundColor: "#ffcc004d" }}>
       <Container>
         <br />
         <Row className="justify-content-center">
           <Col lg={3}>
             <h1 style={headerStyle}>NAVIGATION</h1>
-            <Link style={linkStyle} className="hyperlink C06202" to="/">
+            <Link style={linkStyle} className="C06202" to="/">
               <p>Home</p>
             </Link>
-            <Link
-              style={linkStyle}
-              className="hyperlink C06202"
-              to="/individlearners"
-            >
+            <Link style={linkStyle} to="/individlearners">
               <p>Enroll</p>
             </Link>
-            <Link
-              style={linkStyle}
-              className="hyperlink C06202"
-              to="/volunteer-overview"
-            >
+            <Link style={linkStyle} to="/volunteer-overview">
               <p>Volunteer</p>
             </Link>
-            <Link
-              style={linkStyle}
-              className="hyperlink C06202"
-              to="/about-overview"
-            >
+            <Link style={linkStyle} to="/about-overview">
               <p>About</p>
             </Link>
-            <Link style={linkStyle} className="hyperlink C06202" to="/contact">
+            <Link style={linkStyle} to="/contact">
               <p>Contact</p>
             </Link>
-            <Link style={linkStyle} className="hyperlink C06202" to="/news">
+            <Link style={linkStyle} to="/news">
               <p>News</p>
             </Link>
           </Col>
           <br />
           <Col lg={3}>
             <h1 style={headerStyle}>FIND US</h1>
-            <p style={{ ...darkBrown, ...linkStyle }}>
+            <p style={{ ...linkStyle, ...darkBrown }}>
               EMAIL |{" "}
-              <a
-                className="hyperlink C06202"
-                href={"mailto:info@roboticsforall.net"}
-              >
+              <a style={linkStyle} href={"mailto:info@roboticsforall.net"}>
                 info@roboticsforall.net
               </a>
             </p>
-            <p style={{ ...darkBrown, ...linkStyle }}>
+            <p style={{ ...linkStyle, ...darkBrown }}>
               PHONE |{" "}
-              <a className="hyperlink C06202" href={"tel:+6506659734"}>
+              <a style={linkStyle} href={"tel:+6506659734"}>
                 (650)-665-9734
               </a>
             </p>
-            <div style={{ ...darkBrown, ...linkStyle }}>
+            <div style={{ ...linkStyle, ...darkBrown }}>
               ADDRESS |{" "}
               <a
                 target="_blank"
+                style={linkStyle}
                 href="https://www.google.com/maps/place/Palo+Alto,+CA+94302/@37.4400162,-122.1487548,15z/data=!3m1!4b1!4m8!1m2!2m1!1sP.O.+Box+56,+Palo+Alto,+CA+94302!3m4!1s0x808fbb1b431541ef:0x2d06ff09a989536f!8m2!3d37.44!4d-122.14"
-                className="C06202 hyperlink"
               >
                 P.O. Box 56, Palo Alto, CA 94302
               </a>
@@ -116,7 +102,7 @@ export const RFAFooter: React.FC = () => {
               </a>
               <a target="_blank" href="https://www.guidestar.org/">
                 <Image
-                  style={{ width: "8vmax", height: "8vmax" }}
+                  style={{ width: "8rem", height: "8rem" }}
                   src={guidestar}
                 />
               </a>
@@ -125,40 +111,24 @@ export const RFAFooter: React.FC = () => {
           <br />
           <Col lg={3}>
             <h1 style={headerStyle}>MORE</h1>
-            <Link
-              style={linkStyle}
-              className="hyperlink C06202"
-              to="/more-privacypolicy"
-            >
+            <Link style={linkStyle} to="/more-privacypolicy">
               <p>Privacy Policy</p>
             </Link>
-            <Link
-              style={linkStyle}
-              className="hyperlink C06202"
-              to="/more-websitetos"
-            >
+            <Link style={linkStyle} to="/more-websitetos">
               <p>Website Terms of Use</p>
             </Link>
-            <Link
-              to="/more-bylaws"
-              style={linkStyle}
-              className="hyperlink C06202"
-            >
+            <Link to="/more-bylaws" style={linkStyle}>
               <p>Robotics For All Bylaws</p>
             </Link>
-            <Link
-              to="/more-meetingrecords"
-              style={linkStyle}
-              className="hyperlink C06202"
-            >
+            <Link to="/more-meetingrecords" style={linkStyle}>
               <p>Meeting Minutes & Agendas</p>
             </Link>
-            <div style={{ ...darkBrown, ...linkStyle }}>
+            <div style={{ ...linkStyle, ...darkBrown }}>
               TAX IDs |{" "}
               <a
                 target="_blank"
                 href="https://www.guidestar.org/profile/83-2012119"
-                className="hyperlink C06202"
+                style={linkStyle}
               >
                 83-2012119
               </a>

@@ -8,7 +8,7 @@ export const RFAPosButton: React.FC<{ link: string; title: string }> = (
   const button = {
     color: "#000000",
     background: "#FA8D1F",
-    fontFamily: "mazzard-h-extrabold",
+    fontFamily: "Mazzard-H",
     fontSize: "45px",
     borderColor: "#FA8D1F",
     borderRadius: "15px",
@@ -18,7 +18,7 @@ export const RFAPosButton: React.FC<{ link: string; title: string }> = (
   };
 
   return (
-    <Link className="hyperlink" to={props.link}>
+    <Link to={props.link}>
       <Row
         className="pos-container-button justify-content-center align-items-center"
         style={button}

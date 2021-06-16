@@ -13,7 +13,7 @@ export const RFAFormInput: React.FC<{
     borderRadius: 15,
     borderWidth: 1,
     height: props.height,
-    fontFamily: "BeVietnam-ExtraBold",
+    fontFamily: "BeVietnam",
     paddingLeft: "0.5em",
     fontSize: "1.2em",
     marginBottom: "0.5em",

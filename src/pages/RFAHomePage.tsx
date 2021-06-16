@@ -22,41 +22,40 @@ import { RFAHomeAffOrgsCard } from "@/components/RFAHomeAffOrgsCard";
 export const RFAHomePage: React.FC = () => {
   const videoRow: React.CSSProperties = {
     backgroundColor: "#FFCC00",
+    height: "24rem",
   };
   const header: React.CSSProperties = {
-    fontFamily: "Oswald-Medium",
-    fontSize: "10vh",
+    fontFamily: "Oswald",
+    fontSize: "8rem",
     color: "#ffcc00",
     textAlign: "center",
   };
   const headerDescription: React.CSSProperties = {
-    fontFamily: "BeVietnam-Regular",
+    fontFamily: "BeVietnam",
     textAlign: "center",
-    fontSize: "4vh",
+    fontSize: "25px",
   };
   const sponsorsLabel: React.CSSProperties = {
-    fontFamily: "BeVietnam-Bold",
+    fontFamily: "BeVietnam",
     textAlign: "center",
-    fontSize: "4vh",
+    fontSize: "3rem",
   };
   const affOrgsHeader: React.CSSProperties = {
-    fontFamily: "Oswald-Medium",
-    fontSize: "8vh",
+    fontFamily: "Oswald",
+    fontSize: "4rem",
     color: "#ffcc00",
     textAlign: "center",
   };
   const sponsorImageSize: React.CSSProperties = {
-    height: "7vh",
+    height: "4rem",
   };
 
   return (
     <>
       <Row style={videoRow} className="justify-content-center">
         <video
-          className="video-width"
-          autoPlay
-          loop
-          muted
+          style={{ height: "100%", maxWidth: "100%" }}
+          controls
           src={homePageVideo}
         />
       </Row>
@@ -74,7 +73,7 @@ export const RFAHomePage: React.FC = () => {
         </Row>
       </Container>
 
-      <Row className="p-5 yellow-row">
+      <Row style={{ backgroundColor: "#ffcc004d" }} className="p-5">
         <Container>
           <Row>
             {/* {[
@@ -95,14 +94,11 @@ export const RFAHomePage: React.FC = () => {
               },
             ].map((buttons, i) => ( */}
             <Col md={4} className="text-center">
-              <Link to="/individlearners" className="hyperlink">
-                <Image
-                  className="mb-3 home-page-house-img"
-                  // src = {house1}
-                />
+              <Link to="/individlearners">
+                <Image className="mb-3 home-page-house-img" />
                 <h1
                   style={{
-                    fontFamily: "Oswald-Medium",
+                    fontFamily: "Oswald",
                     textAlign: "center",
                   }}
                 >
@@ -111,14 +107,11 @@ export const RFAHomePage: React.FC = () => {
               </Link>
             </Col>
             <Col md={4} className="text-center">
-              <Link to="/forschools" className="hyperlink">
-                <Image
-                  className="mb-3 home-page-apple-img"
-                  // src = {house1}
-                />
+              <Link to="/forschools">
+                <Image className="mb-3 home-page-apple-img" />
                 <h1
                   style={{
-                    fontFamily: "Oswald-Medium",
+                    fontFamily: "Oswald",
                     textAlign: "center",
                   }}
                 >
@@ -127,14 +120,11 @@ export const RFAHomePage: React.FC = () => {
               </Link>
             </Col>
             <Col md={4} className="text-center">
-              <Link to="/volunteer-overview" className="hyperlink">
-                <Image
-                  className="mb-3 home-page-world-img"
-                  // src = {house1}
-                />
+              <Link to="/volunteer-overview">
+                <Image className="mb-3 home-page-world-img" />
                 <h1
                   style={{
-                    fontFamily: "Oswald-Medium",
+                    fontFamily: "Oswald",
                     textAlign: "center",
                   }}
                 >
