@@ -9,6 +9,7 @@ const styles : any = {
     fontFamily: "BeVietnam-ExtraBold",
     letterSpacing: "0.25em",
     textAlign: "center",
+    textTransform: "uppercase",
   },
   posDescription: {
     fontFamily: "BeVietnam-Medium",

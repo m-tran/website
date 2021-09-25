@@ -75,6 +75,29 @@ collections:
                 name: "agenda_file_path"
                 widget: file
                 media_folder: '/public/uploads/downloads/meetingrecords'
+  - label: "Privacy Policy and Website TOS" # used in UI
+    name: "pp_webtos" # used in routes
+    files:
+      - label: "Privacy Policy"
+        name: "privacy_policy"
+        file: "src/posts/downloads/privacy_policy.json"
+        fields:
+          - label: "Sections"
+            name: "sections"
+            widget: list
+            fields:
+              - {label: Section Header, name: header, widget: string}
+              - {label: Section Description, name: description, widget: markdown}
+      - label: "Website TOS"
+        name: "website_tos"
+        file: "src/posts/downloads/website_tos.json"
+        fields:
+          - label: "Sections"
+            name: "sections"
+            widget: list
+            fields:
+              - {label: Section Header, name: header, widget: string}
+              - {label: Section Description, name: description, widget: markdown}
   - label: "Newsletters" # used in UI
     name: "newsletters" # used in routes
     files:

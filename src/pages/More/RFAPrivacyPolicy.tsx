@@ -68,6 +68,17 @@ export const RFAPrivacyPolicy: React.FC = () => {
             <Nav.Link style={inActiveStyle} disabled></Nav.Link>
           </Nav.Item>
           <Tab.Pane>
+            <RFATabsCardNoImage
+              posHeader={"Privacy Notice"}
+              generalColor = {ColorThemes.mainYellow}
+              posDescription={
+                <div>
+                  <p>
+                    <Markdown>{pubInternOverviewJSON.overview}</Markdown>
+                  </p>
+                </div>
+              }
+            />
             <RFAWebsiteTOSCard
               posDescription={
                 <div>
