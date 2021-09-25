@@ -65,7 +65,7 @@ export const RFANews: React.FC = () => {
     borderRadius: "15px",
     border: "none",
     fontSize: "28px",
-    fontFamily: "BeVietnam-Medium",
+    fontFamily: "BeVietnam-ExtraBold",
     color: "black",
   };
   const linkStyles: React.CSSProperties = {
@@ -124,18 +124,18 @@ export const RFANews: React.FC = () => {
                 </p>
               </Col>
             </Row>
-            <Row>
-              <Col>
+            <Row className = "justify-content-center">
+              <Col className = "center-align">
                 <Button block size="lg" style={buttonStyles}>
                   Info Packet
                 </Button>
               </Col>
-              <Col>
+              <Col className = "center-align">
                 <Button block size="lg" style={buttonStyles}>
                   Stories
                 </Button>
               </Col>
-              <Col>
+              <Col className = "center-align">
                 <Button block size="lg" style={buttonStyles}>
                   Photos
                 </Button>
