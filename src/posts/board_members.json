@@ -1,0 +1,22 @@
+{
+  "board_members_list": [
+    {
+      "name": "Max",
+      "title_pronouns": "CEO Guy",
+      "description": "gzzgs",
+      "image": "/public/uploads/leadershipteamimg/boardmembers/max.png"
+    },
+    {
+      "name": "Bax",
+      "title_pronouns": "BEO",
+      "description": "BAXY MAX who is BEO",
+      "image": "/public/uploads/leadershipteamimg/boardmembers/elementary-toby.webp"
+    },
+    {
+      "name": "Drax",
+      "title_pronouns": "Unknown species of Max",
+      "description": "From the planet Lax",
+      "image": "/public/uploads/leadershipteamimg/boardmembers/student-toby.png"
+    }
+  ]
+}
