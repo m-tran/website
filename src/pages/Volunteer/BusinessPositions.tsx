@@ -14,7 +14,9 @@ export const BusinessPositions: React.FC = () => {
   const ActiveStyle = {
     background: ColorThemes.mainBlue,
     border: "none",
+    borderRadius: "15px 15px 0 0",
     fontFamily: "BeVietnam-ExtraBold",
+    fontSize: "x-large",
     padding: "20px",
     height: "100%",
   };
@@ -27,6 +29,7 @@ export const BusinessPositions: React.FC = () => {
     color: ColorThemes.mainBlue,
     textAlign: "center",
     textTransform: "uppercase",
+    fontSize: "3em",
     wordBreak: "break-word"
   };
 

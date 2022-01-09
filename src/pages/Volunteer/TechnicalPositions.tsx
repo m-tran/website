@@ -16,7 +16,9 @@ export const TechnicalPositions: React.FC = () => {
   const ActiveStyle = {
     background: ColorThemes.mainGreen,
     border: "none",
+    borderRadius: "15px 15px 0 0",
     fontFamily: "BeVietnam-ExtraBold",
+    fontSize: "x-large",
     padding: "20px",
     height: "100%",
   };
@@ -29,6 +31,7 @@ export const TechnicalPositions: React.FC = () => {
     color: ColorThemes.mainGreen,
     textAlign: "center",
     textTransform: "uppercase",
+    fontSize: "3em",
     wordBreak: "break-word"
   };
 

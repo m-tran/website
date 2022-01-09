@@ -106,6 +106,7 @@ const MobileNavbarItem: React.FC<{
     display: "flex",
     justifyContent: "space-between",
     fontFamily: "BeVietnam-Bold",
+    fontSize: "1.5em",
   };
   const list: React.CSSProperties = {
     textDecoration: "none",

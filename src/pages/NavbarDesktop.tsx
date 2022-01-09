@@ -44,51 +44,51 @@ export const NavbarDesktop: React.FC = () => {
       </header>
       <ul className="ms-2" style={{ ...navItemsList, ...list }}>
         {enrollvolunteerabout.map((navItem, i) => (
-          <>
+          <React.Fragment>
             <li className="nav-item" key={i}>
               <div className="h-100 nav-item-header">
                 <Link to="#" className="hyperlink">
-                  <h5>{navItem.headerName}</h5>
+                  {navItem.headerName}
                 </Link>
               </div>
-              <ul className="rounded dropdown-container" style={list}>
+              <ul className="dropdown-container" style={list}>
                 {navItem.subPages.map((subPageInfo, i) => (
-                  <Link key={i} className="hyperlink rounded" to={subPageInfo.to}>
-                    <li className = "rounded"><h5>{subPageInfo.subPageName}</h5></li>
+                  <Link key={i} className="hyperlink" to={subPageInfo.to}>
+                    <li>{subPageInfo.subPageName}</li>
                   </Link>
                 ))}
               </ul>
             </li>
-          </>
+          </React.Fragment>
         ))}
         <li className="nav-item">
           <div className="h-100 m-0 nav-item-header">
             <Link className="hyperlink" to="/contact">
-              <h5>Contact</h5>
+              Contact
             </Link>
           </div>
         </li>
         <li className="nav-item">
           <div className="h-100 nav-item-header">
             <Link className="hyperlink" to="/news">
-              <h5>News</h5>
+              News
             </Link>
           </div>
         </li>
         <li className="nav-item">
           <div className="h-100 donate-nav-item-header">
-            <Link className="donate-nav-background rounded hyperlink" to="/donate">
-              <h5>Donate</h5>
+            <Link className="donate-nav-background hyperlink" to="/donate">
+              Donate
             </Link>
           </div>
-          <ul className="rounded dropdown-container" style={list}>
+          <ul className="dropdown-container" style={list}>
             <a
               rel="noopener"
               target="_blank"
               href="https://www.bonfire.com/store//"
               className="hyperlink"
             >
-              <li className = "rounded"><h5>Merch</h5></li>
+              <li>Merch</li>
             </a>
           </ul>
         </li>

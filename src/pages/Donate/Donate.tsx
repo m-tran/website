@@ -8,10 +8,12 @@ import { ColorThemes } from "@/colors";
 export const Donate: React.FC = () => {
   const positionsDescription = {
     fontFamily: "BeVietnam-Medium",
+    fontSize: "1.5em",
   };
 
   const buttonText = {
     fontFamily: "Mazzard-H-Extrabold",
+    fontSize: "4em",
   };
 
   return (
@@ -41,7 +43,7 @@ export const Donate: React.FC = () => {
           </p>
           <p
             style={positionsDescription}
-            className="text-center"
+            className="text-center header-description-size"
           >
             Robotics for All is a 501(c)(3) non-profit organization. All
             donations are fully tax-deductible.
@@ -58,7 +60,7 @@ export const Donate: React.FC = () => {
             >
               <h1
                 style={buttonText}
-                className="m-0 p-3 rounded long-button text-center"
+                className="m-0 p-3 long-button text-center"
               >
                 Donate
               </h1>

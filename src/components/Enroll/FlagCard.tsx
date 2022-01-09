@@ -18,7 +18,8 @@ export const FlagCard: React.FC<IProps> = (props: IProps) => {
       fontFamily: "BeVietnam-Bold",
     },
     cardBackground: {
-      composes: "mb-2 rounded",
+      composes: "mb-2",
+      borderRadius: "1em",
       transition: "200ms",
       backgroundColor: props.backgroundColor,
       "&:hover": {
