@@ -9,6 +9,21 @@ import newsletterJSON from "@/posts/newsletters.json";
 
 import { ColorThemes } from "@/colors";
 
+export const Newsletter: React.FC = () => {
+  const heading3: React.CSSProperties = {
+    fontFamily: "BeVietnam-ExtraBold",
+  };
+
+  const subscribe: React.CSSProperties = {
+    fontFamily: "Oswald-Medium",
+    color: "#554400",
+    textAlign: "center",
+  };
+
+  const ofsubscriber: React.CSSProperties = {
+    fontFamily: "Oswald-Medium",
+    color: "#b38f00",
+  };
 import "../../index.css";
 
 export const Newsletter: React.FC = () => {

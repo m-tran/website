@@ -42,17 +42,14 @@ export const CourseCard: React.FC<IProps> = (props: IProps) => {
   };
   const dropdownHeaderText: React.CSSProperties = {
     fontFamily: "Oswald-Medium",
-    fontSize: "4em",
   };
   const dropdownText: React.CSSProperties = {
     fontFamily: "BeVietnam-Medium",
-    fontSize: "1.5em",
   };
 
   const useStyles = createUseStyles({
     cardBackground: {
-      composes: "d-flex flex-column justify-content-center",
-      borderRadius: "1em",
+      composes: "d-flex flex-column justify-content-center rounded",
       transition: "200ms",
       backgroundColor: props.backgroundColor,
       "&:hover": {
@@ -122,7 +119,7 @@ export const CourseCard: React.FC<IProps> = (props: IProps) => {
                 src={props.dropdownCourseImage}
               ></Image>
               <a
-                style={{ color: props.backgroundColor, fontSize: "4em" }}
+                style={{ color: props.backgroundColor }}
                 rel="noopener noreferrer"
                 target="_blank"
                 className="text-center hyperlink aff-org-card-link"

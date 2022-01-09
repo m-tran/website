@@ -15,18 +15,14 @@ export const VolunteerApp: React.FC = () => {
     color: ColorThemes.black,
     background: ColorThemes.mainYellow,
     border: "none",
-    borderRadius: "15px 15px 0 0",
     fontFamily: "BeVietnam-ExtraBold",
-    fontSize: "x-large",
     padding: "30px",
   };
   const InActiveStyle: React.CSSProperties = {
     color: ColorThemes.black,
     background: ColorThemes.mainOrange,
     border: "none",
-    borderRadius: "15px 15px 0 0",
     fontFamily: "BeVietnam-ExtraBold",
-    fontSize: "x-large",
     padding: "30px",
   };
 
