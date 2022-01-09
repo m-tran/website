@@ -6,6 +6,8 @@ import Carousel from "react-bootstrap/Carousel";
 import "react-multi-carousel/lib/styles.css";
 import exitIcon from "@/media/Icons/exitIcon.svg";
 
+import "../../index.css";
+
 interface IProps {
   infoJSON: any;
   backgroundColor: string;
@@ -96,14 +98,14 @@ export const MeetTheTeamCard: React.FC<IProps> = (props: IProps) => {
               >
                 <img width = "50" src={exitIcon} />
               </button>
-              <h1 style={nameHeader}>{info.name}</h1>
+              <h1 className="nameHeader">{info.name}</h1>
 
             </header>
-            <h1 style={{ color: props.color, ...titleHeader }}>
+            <h1 className="titleHeader" style={{ color: props.color}}>
               {info.title_pronouns}
             </h1>
             <p>
-              <Markdown style={bodyText}>{info.description}</Markdown>
+              <Markdown className="bodyText">{info.description}</Markdown>
             </p>
           </Container>
         </Row>
@@ -140,9 +142,12 @@ export const MeetTheTeamCard: React.FC<IProps> = (props: IProps) => {
               <Col style={{ overflowY: "auto" }} className="ms-2">
                 <h1 style={nameHeader}>{info.name}</h1>
                 <h1 style={{ color: props.color, ...titleHeader }}>
+              <Col style={{ overflowY: "auto" }} md={7} className="ms-2">
+                <h1 className="nameHeader">{info.name}</h1>
+                <h1 className="titleHeader" style={{ color: props.color}}>
                   {info.title_pronouns}
                 </h1>
-                <Markdown style={bodyText}>{info.description}</Markdown>
+                <Markdown className="bodyText">{info.description}</Markdown>
               </Col>
             )}
           </div>

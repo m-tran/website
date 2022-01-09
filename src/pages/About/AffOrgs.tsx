@@ -2,12 +2,15 @@ import React from "react";
 import { Header } from "@/components/Header";
 import { Container, Row, Image, Col } from "react-bootstrap";
 // import homePageVideo from "@/media/homePageVideo.mp4";
+import { Container } from "react-bootstrap";
 import headerBlobYellow from "@/media/HeaderBlobs/yellow.png";
 import MFALogo from "@/media/AffiliatedOrgs/MFA_Logo.png";
 import CFCLogo from "@/media/AffiliatedOrgs/CFC_Logo.png";
 import TFALogo from "@/media/AffiliatedOrgs/TFA_Logo.png";
 
 import { ColorThemes } from "@/colors";
+
+import { AboutAffOrgsCard } from "@/components/About/AboutAffOrgsCard";
 
 export const AffOrgs: React.FC = () => {
   return (
@@ -66,7 +69,6 @@ export const AffOrgs: React.FC = () => {
     </div>
   );
 };
-
 const AboutAffOrgsCard: React.FC<{
   mainColor: string;
   affOrgName: string;
