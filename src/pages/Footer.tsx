@@ -14,6 +14,7 @@ export const Footer: React.FC = () => {
   };
   const linkStyle: React.CSSProperties = {
     fontFamily: "BeVietnam-Bold",
+    fontSize: "large",
   };
   const headerStyle: React.CSSProperties = {
     fontFamily: "Oswald-Medium",

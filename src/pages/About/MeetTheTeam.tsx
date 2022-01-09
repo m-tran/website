@@ -9,34 +9,11 @@ import pcInfoJSON from "@/posts/pub_committee.json";
 
 import { MeetTheTeamCard } from "@/components/About/MeetTheTeamCard";
 
-import Carousel from "react-bootstrap/Carousel";
-import Col from "react-bootstrap/Col";
-import Image from "react-bootstrap/Image";
-
-import image from "../../media/download.svg"; 
-import image2 from "../../media/download (1).svg"; 
-
 import { ColorThemes } from "@/colors";
 
 import "../../index.css";
 
 export const MeetTheTeam: React.FC = () => {
-  const yellowRow = {
-    backgroundColor: ColorThemes.lightYellow,
-  };
-  const greenRow = {
-    backgroundColor: ColorThemes.lightGreen,
-  };
-  const blueRow = {
-    backgroundColor: ColorThemes.lightBlue,
-  };
-  const orangeRow = {
-    backgroundColor: ColorThemes.lightOrange,
-  };
-  const header: React.CSSProperties = {
-    fontFamily: "Oswald-Medium",
-    textAlign: "center",
-  };
 	const yellowRow = {
 		backgroundColor: ColorThemes.lightYellow,
 	};

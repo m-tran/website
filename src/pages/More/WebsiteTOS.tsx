@@ -21,6 +21,7 @@ export const WebsiteTOS: React.FC = () => {
 
   const headerText = {
     color: ColorThemes.black,
+    fontSize: "4em",
     fontFamily: "Oswald-Medium",
   };
 

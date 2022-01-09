@@ -18,6 +18,7 @@ export const CorpBylaws: React.FC = () => {
     border: "10px solid white",
     padding: "5px",
     fontFamily: "BeVietnam-ExtraBold",
+    fontSize: "xx-large",
     textAlign: "center",
     color: "black",
   };

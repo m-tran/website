@@ -17,7 +17,7 @@ export const Header: React.FC<{
   };
   const headerBlob = {
     backgroundSize: "100% 100%",
-    height: "30vmax",
+    height: "45vmax",
     // width: "100vw",
     backgroundImage: `url(${props.image})`,
   };
@@ -28,12 +28,12 @@ export const Header: React.FC<{
       style={headerBlob}
     >
       <div className="w-75 mb-6">
-        <h1 style={pageHeader} className="text-center">
+        <h1 style={pageHeader} className="text-center header-size">
           {props.title}
         </h1>
         <p
           style={pageHeaderDescription}
-          className="text-center"
+          className="text-center header-description-size"
         >
           {props.description}
         </p>

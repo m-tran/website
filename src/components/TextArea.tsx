@@ -13,6 +13,7 @@ export const TextArea: React.FC<{
     borderWidth: 1,
     fontFamily: "BeVietnam-ExtraBold",
     paddingLeft: "0.5em",
+    fontSize: "1.2em",
     margin: "auto",
   };
 

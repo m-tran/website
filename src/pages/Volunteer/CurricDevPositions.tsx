@@ -17,7 +17,9 @@ export const CurricDevPositions: React.FC = () => {
   const ActiveStyle = {
     background: ColorThemes.mainYellow,
     border: "none",
+    borderRadius: "15px 15px 0 0",
     fontFamily: "BeVietnam-ExtraBold",
+    fontSize: "x-large",
     padding: "20px",
     height: "100%",
   };
@@ -30,6 +32,7 @@ export const CurricDevPositions: React.FC = () => {
     color: ColorThemes.mainYellow,
     textAlign: "center",
     textTransform: "uppercase",
+    fontSize: "3em",
     wordBreak: "break-word"
   };
 
@@ -50,7 +53,7 @@ export const CurricDevPositions: React.FC = () => {
         <Tab.Container activeKey={key} onSelect={(key) => setKey(key!)}>
           <Nav justify fill variant="tabs">
             <Nav.Item>
-              <Nav.Link eventKey="one" style={ActiveStyle}>
+              <Nav.Link eventKey="one" className="pos" style={ActiveStyle}>
                 <p style={black}>Curriculum Developer Positions</p>
               </Nav.Link>
             </Nav.Item>
